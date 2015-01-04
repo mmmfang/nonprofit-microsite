@@ -38,9 +38,9 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="#"> Home<span class="sr-only">(current)</span></a></li>
+          <li class="active"><a href="#"> Media<span class="sr-only">(current)</span></a></li>
           <li><a href="how-we-help.html">How We Help</a></li>
-          <li><a href="media.html">Media</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="donate.html">Donate</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
@@ -54,34 +54,42 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
 
+    <!-- Carousel-->
 
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    </ol>
 
-    <h2>A Focus on the City Bar Justice Center</h2>
-    <h2>Using Pro Bono to Support Homeless Families</h2>
-
-    <div class="well"> The City Bar Justice Center uses pro bono to help over 20,000 persons a year, from immigrant victims of domestic violence to veterans seeking disability benefits. This microsite will focus on the City Bar Justice Center's Legal Clinic for the Homeless, which for over ten years has advocated for benefits for homeless families. With homelessness in New York City at an all time high, the majority of our clients are single mothers, the time to focus is now.</div>
-    
-    <!-- 3 column grid structure -->
-
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-4"> 
-          <h3> How We Help </h3>
-          <p> With the help of dedicated pro bono attorneys, we help over 20,000 New Yorkers a year in a dozen legal areas. We operate the city's largest free civil legal hotline. <a href="how-we-help.html">Find out more. </a> </p>            
-        </div>
-          
-        <div class="col-sm-4"> 
-          <h3> Media </h3>
-          <p> The number of homeless families is at an all time high. A high-achieving middle school student, a mother with a public access TV show, a single father. Here are the unlikely faces of the crisis.  </p>            
-        </div>
-
-        <div class="col-sm-4">
-          <h3>Donate</h3>
-          <p>Meeting unmet legal needs of New Yorkers can only be done with your help. <a href="#INSERT LINK">Please consider a donation to allow us to serve more families. </a> </p>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="..." alt="...">
+        <div class="carousel-caption">
+          ...
         </div>
       </div>
+      <div class="item">
+        <img src="..." alt="...">
+        <div class="carousel-caption">
+          ...
+        </div>
+      </div>
+      ...
     </div>
-    
-    <!-- end 3 column grid structure -->
-  </body>
-</html>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+    <!-- End image Carousel-->
