@@ -1,0 +1,55 @@
+/**SLIDE STUFF **/
+
+#frame {
+  width: 900px;
+  height: 600px;
+  overflow: hidden;
+  position: relative;
+}
+
+#slide_tray {
+  position: relative;
+}
+
+.slide {
+  width: 900px;
+  height: 600px;
+  float: left;
+}
+
+.slide .picture {
+  width: 66%;
+  float: left;
+}
+
+.slide .caption {
+  width: 30%;
+  float: left;
+
+}
+
+#prev, #next {
+  display: block;
+  position: absolute;
+  top: 49%;
+}
+
+#prev:link, #next:link, #prev:visited, #next:visited {
+  color: black;
+  -webkit-text-stroke: 1px white;
+  text-shadow: 1px 1px 1px white, -1px -1px 1px white;
+}
+
+#prev:hover, #next:hover {
+  color: white;
+  -webkit-text-stroke: 1px black;
+  text-shadow: 1px 1px 1px black, -1px -1px 1px black;
+}
+
+#prev {
+  left: 2%;
+}
+
+#next {
+  right: 2%;
+}

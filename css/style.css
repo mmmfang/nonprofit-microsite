@@ -1,33 +1,89 @@
+/** NAVBAR **/
 
-.navbar-header {height: 50px;}
+.navbar {
+	background-color: white;
+	width: 100%;
+	border-color: white;
+}
 
-h1 {
+.navbar-brand {
+	height:110px;
+	width: auto;
+	padding-top:2px;
+}
+
+.navbar-brand img {
+	height: 110px;
+	padding-top: 4px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	position: relative;
+}
+
+.navbar-nav > li{
+	padding-top: 35px;
+	font-size: 16px;
+	padding-right: 10px;
 	padding-left: 10px;
 }
-h2{
-	color:navy;
-	padding-left:10px;
+
+.overlay { 
+  color:#fff;
+  position:absolute;
+  z-index:12;
+  top: 10px;
+  width:100%;
+  text-align:right;
+  padding-right: 15px;
+  text-shadow: 2px 2px #000;
 }
 
-h3 {
-	color:navy;
+
+.clinic-overlay {
+	color: black;
+	border: 1px solid gray;
+	background-color: white;
+	font-size: 16px;
+	padding-top: 10px;
+	margin-top:14px;
+
+}
+
+/**
+#full-background, .wrapper {
+	background-color: rgb(221,217,210);
+}
+
+**/
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+
+
+ }
+
+.row {
+	width: 960px;
 }
 
 
-* {font-family: Georgia, "Times New Roman", Times, serif;}
-
-
-
-
-#carousel-example-generic .item img{
-	height:auto;
+h2, h3 {
+	color: navy;
 }
 
-.carousel-caption p {
-	display: none;
+* {font-family:'PT Serif', serif;
+	font-size: 16px;}
+
+
+footer p {
+	margin-top: 20px;
+	clear: both;
+	font-size: 12px;
+	text-align: center;
 }
 
-@media only screen and (min-width: 760px) {
+/** @media only screen and (min-width: 760px) {
 	height: 384px;
 }
 @media only screen and (min-width: 992px) {
@@ -39,3 +95,4 @@ h3 {
 	height: 600 px;
 	display: block;
 }
+**/
