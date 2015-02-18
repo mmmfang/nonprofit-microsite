@@ -44,9 +44,7 @@
 	border: 1px solid gray;
 	background-color: white;
 	font-size: 16px;
-	padding-top: 10px;
-	margin-top:14px;
-
+	top: 50px;
 }
 
 /**
@@ -67,13 +65,27 @@
 	width: 960px;
 }
 
+.donate_button {
+	font-weight: bold;
+
+}
+
+.centeredcol {
+	text-align: center;	
+}
+
+hr {
+	width: 100%;
+}
+;
 
 h2, h3 {
 	color: navy;
 }
 
-* {font-family:'PT Serif', serif;
+body {font-family:'PT Serif', serif;
 	font-size: 16px;}
+
 
 
 footer p {
