@@ -57,17 +57,10 @@
 .wrapper {
   width: 960px;
   margin: 0 auto;
-
-
  }
 
 .row {
 	width: 960px;
-}
-
-.donate_button {
-	font-weight: bold;
-
 }
 
 .centeredcol {
@@ -77,15 +70,15 @@
 hr {
 	width: 100%;
 }
-;
+
 
 h2, h3 {
 	color: navy;
 }
 
-body {font-family:'PT Serif', serif;
+body {
+	font-family:'PT Serif', serif;
 	font-size: 16px;}
-
 
 
 footer p {
