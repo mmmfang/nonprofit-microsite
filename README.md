@@ -1,1 +1,1 @@
-This is a Bootstrap site based on City Bar Justice Center.  A microsite. 
+This is a Bootstrapped microsite for the City Bar Justice Center - Legal Clinic for the Homeless. The campaign is based on the "Walk a Mile in their Shoes" report.
