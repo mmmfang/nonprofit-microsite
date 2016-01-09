@@ -1,1 +1,1 @@
-This is a nonprofit microsite built using Bootstrap.
+This is an example nonprofit microsite built using Bootstrap.
